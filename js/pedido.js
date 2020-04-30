@@ -15,7 +15,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     //resp.classList.remove("fail");
     //resp.classList.remove("send");
   
-    let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+    let url = `https://api.whatsapp.com/send?phone=${593983109017}&text=
           *_Estimado cliente_*%0A
           *Su pedido es:*%0A%0A
 
