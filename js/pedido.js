@@ -8,7 +8,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     let tomatetexto =document.querySelector("#tomateText").value;
     let tomate     =document.querySelector("#tomateValor").value;
 
-    let pimientoText =document.querySelector("#piminetoText")            
+    let pimientoText =document.querySelector("#piminetoText").value;            
     let pimiento =document.querySelector("#pimientoValor").value;       
     let resp = document.querySelector("#respuesta");
   
