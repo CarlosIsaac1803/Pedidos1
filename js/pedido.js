@@ -16,15 +16,13 @@ document.querySelector("#submit").addEventListener("click", e => {
     //resp.classList.remove("send");
   
     let url = `https://api.whatsapp.com/send?phone=${593983109017}&text=
-          *_Estimado cliente_*%0A
-          *Su pedido es:*%0A%0A
-
+                         *_Estimado cliente_*%0A
+                           *Su pedido es:*%0A%0A          
+                               ${tomatetexto}%0A          
+                                 ${tomate}%0A%0A          
           
-          ${tomatetexto}%0A          
-          ${tomate}%0A%0A          
-          
-          ${pimientoText}%0A          
-          ${pimiento}`;
+                              ${pimientoText}%0A          
+                                    ${pimiento}`;
   
     /*if (cliente === "" || fecha === "" || hora === "") {
       resp.classList.add("fail");
