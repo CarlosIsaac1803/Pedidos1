@@ -48,3 +48,15 @@ background-attachment: fixed;
 .sep__centro{
   width: 50px;
 }
+#respuesta {
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+}
+#respuesta.fail {
+  color: red;
+}
+#respuesta.send {
+  color: green;
+}
