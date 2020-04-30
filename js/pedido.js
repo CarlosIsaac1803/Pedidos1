@@ -31,7 +31,7 @@ document.querySelector("#submit").addEventListener("click", e => {
     }
     resp.classList.remove("fail");*/
     resp.classList.add("send");
-    resp.innerHTML = `Se ha enviado tu reserva, ${cliente}`;
+    resp.innerHTML = `Se ha enviado tu reserva`;
     
     window.open(url);
   });
