@@ -29,9 +29,9 @@ document.querySelector("#submit").addEventListener("click", e => {
       resp.innerHTML = `Faltan algunos datos, ${cliente}`;
       return false;
     }
-    resp.classList.remove("fail");
+    resp.classList.remove("fail");*/
     resp.classList.add("send");
-    resp.innerHTML = `Se ha enviado tu reserva, ${cliente}`;*/
-    resp.innerHTML="Su  pedido ha sido enviado ";
+    resp.innerHTML = `Se ha enviado tu reserva, ${cliente}`;
+    
     window.open(url);
   });
